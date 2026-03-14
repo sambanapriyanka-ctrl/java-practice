@@ -1,1 +1,20 @@
+class Car{
+String color;
+int speed;
+
+void drive(){
+System.out.println("Car is driven");
+}
+}
+
+public class Main{
+Public static void main( String[] args){
+
+Car car1 = new Car();
+
+car1.color="Red";
+car1.spedd=100;
+
+car1.drive();
+}
 
